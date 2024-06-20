@@ -48,6 +48,7 @@ public class MainForm {
 
                     resultLabel.setText("Compensation Amount: " + compensation);
                 } catch (NumberFormatException ex) {
+
                     resultLabel.setText("Invalid input. Please enter valid numbers.");
                 }
             }

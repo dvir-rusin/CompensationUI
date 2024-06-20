@@ -21,5 +21,6 @@ public class UserInput {
 
     public double getLastIncome() {
         return lastIncome;
+
     }
 }

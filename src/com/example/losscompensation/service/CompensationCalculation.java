@@ -8,5 +8,7 @@ public class CompensationCalculation {
         double futureEarningsLoss = input.getLastIncome() * input.getDisabilityPercentage() / 100;
         int yearsUntilRetirement = 67 - input.getAge();
         return futureEarningsLoss * yearsUntilRetirement;
+
+
     }
 }
